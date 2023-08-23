@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.0c00bfdf.css",
-    "main.js": "/Portfolio/static/js/main.a92c5ed4.js",
+    "main.css": "/Portfolio/static/css/main.769e42e0.css",
+    "main.js": "/Portfolio/static/js/main.f684f516.js",
     "static/media/ScanAIApp.mp4": "/Portfolio/static/media/ScanAIApp.0beea868f1d0ce53ca82.mp4",
     "static/media/mosaic4.png": "/Portfolio/static/media/mosaic4.6758856a8b4523712ac0.png",
     "static/media/japanese-castle-cherry-blossom-mountain.jpg": "/Portfolio/static/media/japanese-castle-cherry-blossom-mountain.27305859cfae3965e415.jpg",
@@ -15,11 +15,11 @@
     "static/media/p4.jpg": "/Portfolio/static/media/p4.926dca8cefe39289cc88.jpg",
     "static/media/silhouette-cloud.png": "/Portfolio/static/media/silhouette-cloud.528b30ac88d76c2461e4.png",
     "index.html": "/Portfolio/index.html",
-    "main.0c00bfdf.css.map": "/Portfolio/static/css/main.0c00bfdf.css.map",
-    "main.a92c5ed4.js.map": "/Portfolio/static/js/main.a92c5ed4.js.map"
+    "main.769e42e0.css.map": "/Portfolio/static/css/main.769e42e0.css.map",
+    "main.f684f516.js.map": "/Portfolio/static/js/main.f684f516.js.map"
   },
   "entrypoints": [
-    "static/css/main.0c00bfdf.css",
-    "static/js/main.a92c5ed4.js"
+    "static/css/main.769e42e0.css",
+    "static/js/main.f684f516.js"
   ]
 }
