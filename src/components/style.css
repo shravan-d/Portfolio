@@ -124,9 +124,13 @@
 }
 
 @media (max-width: 1300px) {
+    .header {
+        color: white;
+        font-size: 60px;
+    }
     .header-container {
         width: 100%;
-        margin-top: 50px;
+        margin-top: 70px;
     }
     .about-container {
         width: 70%;
@@ -136,7 +140,11 @@
     .scrollabe-container {
         background-image: none;
     }
+    .button-container {
+        column-gap: 10vw;
+    }
 }
 
-/* cherry blossom animation, upside down night skyline, up and up type imagery,
-cursor change, cursor lag, cursor on click, background, #030911 */
+/* cherry blossom animation, 
+upside down night skyline, up and up type imagery,
+cursor change, cursor lag, cursor on click */
