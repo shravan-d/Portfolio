@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/Portfolio/static/css/main.0c00bfdf.css",
+    "main.js": "/Portfolio/static/js/main.a92c5ed4.js",
+    "static/media/ScanAIApp.mp4": "/Portfolio/static/media/ScanAIApp.0beea868f1d0ce53ca82.mp4",
+    "static/media/mosaic4.png": "/Portfolio/static/media/mosaic4.6758856a8b4523712ac0.png",
+    "static/media/japanese-castle-cherry-blossom-mountain.jpg": "/Portfolio/static/media/japanese-castle-cherry-blossom-mountain.27305859cfae3965e415.jpg",
+    "static/media/barb.png": "/Portfolio/static/media/barb.f9d33cbf6af6b3a1397b.png",
+    "static/media/DemoHarmonization.mp4": "/Portfolio/static/media/DemoHarmonization.5a3846826e8a3900636a.mp4",
+    "static/media/LinkedInImage.jpg": "/Portfolio/static/media/LinkedInImage.1ba95ec650d7f187e63d.jpg",
+    "static/media/GithubImage.jpg": "/Portfolio/static/media/GithubImage.0de50634eea7d4cd03f1.jpg",
+    "static/media/DemoMosaic.mp4": "/Portfolio/static/media/DemoMosaic.193185f59879799c9dc2.mp4",
+    "static/media/DemoFlap.mp4": "/Portfolio/static/media/DemoFlap.08ea4878da284df351a0.mp4",
+    "static/media/Flappy.png": "/Portfolio/static/media/Flappy.4f731595ecd044dd194f.png",
+    "static/media/p4.jpg": "/Portfolio/static/media/p4.926dca8cefe39289cc88.jpg",
+    "static/media/silhouette-cloud.png": "/Portfolio/static/media/silhouette-cloud.528b30ac88d76c2461e4.png",
+    "index.html": "/Portfolio/index.html",
+    "main.0c00bfdf.css.map": "/Portfolio/static/css/main.0c00bfdf.css.map",
+    "main.a92c5ed4.js.map": "/Portfolio/static/js/main.a92c5ed4.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0c00bfdf.css",
+    "static/js/main.a92c5ed4.js"
+  ]
+}
