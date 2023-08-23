@@ -43,8 +43,23 @@
 }
 .header-container {
     position: absolute;
-    width: 100%;
-    margin-top: 80px;
+    width: 50%;
+    margin-top: 100px;
+}
+.about-container {
+    position: absolute;
+    width: 40%;
+    margin-top: 100px;
+    left: 45%;
+    background-color: rgba(0, 0, 0, 0.9);
+    padding: 20px;
+}
+.about-container p {
+    color: white;
+    font-family:'Courier New', Courier, monospace;
+    font-size: 16px;
+    text-align: left;
+    line-height: 1.5;
 }
 .header.left {
     animation: slide-right 3s;
@@ -59,21 +74,6 @@
 @keyframes slide-right {
     from { margin-left: -100%; }
     to { margin-left: 0%; }
-}
-.about-container {
-    position: absolute;
-    width: 40%;
-    margin-top: 300px;
-    left: 45%;
-    background-color: rgba(0, 0, 0, 0.9);
-    padding: 20px;
-}
-.about-container p {
-    color: white;
-    font-family:'Courier New', Courier, monospace;
-    font-size: 18px;
-    text-align: left;
-    line-height: 1.5;
 }
 .scrollabe-container {
     min-height: 300px;
@@ -95,6 +95,7 @@
     align-items: center;
     position: relative;
     z-index: 10;
+    padding-top: 50px;
 }
 
 .contact-container {
@@ -122,5 +123,20 @@
     font-weight: 800px;
 }
 
-/* cherry blossom animation, upside down night skyline, up and up type imagery, introduction text
-cursor change, cursor lag, cursor on click, background, flappy demo, #030911 */
+@media (max-width: 1300px) {
+    .header-container {
+        width: 100%;
+        margin-top: 50px;
+    }
+    .about-container {
+        width: 70%;
+        margin-top: 250px;
+        left: 10%;
+    }   
+    .scrollabe-container {
+        background-image: none;
+    }
+}
+
+/* cherry blossom animation, upside down night skyline, up and up type imagery,
+cursor change, cursor lag, cursor on click, background, #030911 */

@@ -151,7 +151,7 @@ function Project() {
               <div className='video-content'>
                 <video id='project4' src={DemoMosaic} width='100%' height='100%'></video>
                 {project4Index === -1 && 
-                  <IoPlayOutline color='white' size='35px' onClick={() => playDemo(3)} style={{position: 'absolute', top: '46%', left: '46%'}} />
+                  <IoPlayOutline color='white' size='35px' onClick={() => playDemo(3)} style={{position: 'absolute', top: '46%', left: '46%', cursor: 'pointer'}} />
                 }
               </div>
               <div className='image-content project4'>
