@@ -34,7 +34,7 @@ function LandingPage() {
           <Contact />
         </div>
         <div className='footer'>
-          This website was made using HTML, CSS and beer.
+          This website was made using HTML, CSS and React.
         </div>
       </div>
       <div className='scroll-up-button'><a href='#top'><IoChevronUp color='white' size='25px' className='scroll'/></a></div>
