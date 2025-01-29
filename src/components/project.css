@@ -1,7 +1,7 @@
 .container {
     width: 80vw;
     height: fit-content;
-    background-color: rgba(0, 0, 0, 0.6);
+    background-color: rgba(35, 35, 35, 0.6);
 }
 
 .project {
@@ -35,10 +35,10 @@
     flex: 0 0 50%;
 }
 .media-container.project2 {
-    flex: 0 0 20%;
-    display: flex;
+    flex: 0 0 50%;
+    /* display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: center; */
 }
 .video-content {
     position: absolute;

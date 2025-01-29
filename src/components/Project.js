@@ -9,6 +9,8 @@ import p4 from '../assets/p4.jpg'
 import mosaic4 from '../assets/mosaic4.png'
 import Flappy from '../assets/Flappy.png'
 import barb from '../assets/barb.png'
+import sculptLogo from '../assets/sculptmate.png'
+import SculptDemo from '../assets/SculptMateApple.mp4'
 
 function Project() {
     var intervalId = null;
@@ -65,6 +67,33 @@ function Project() {
 
   return (
     <div className='container'>
+        <div className='project project2'>
+          <div className='media-container project2'>
+            <div className='video-content'>
+            <video id='project2' src={SculptDemo} width='100%' height='100%'></video>
+              {project2Index === -1 && 
+                <IoPlayOutline color='white' size='35px' onClick={() => playDemo(1)} style={{position: 'absolute', top: '46%', left: '46%'}} />
+              }
+            </div>
+            <div className='image-content project2'>
+              <div className='image'><img src={sculptLogo} height={'101%'} width={'102%'}/></div>
+            </div>
+          </div>
+          <div className='content'>
+              <div className='text'>
+                ScultpMate is an open-source add-on for Blender that generates 3D meshes from a single image. It has over 1000 users - 3D artists, independendent game developers generating assets.<br/><br/> Commonly used products in the market charge users 100s of dollars for a limited number of 3D generations. ScultpMate is free and unlimited to use because it leverages local computing. I used pre-trained models based on neural radiance fields (NeRF) enabling 3D reconstruction.
+              </div>
+              {project2Index === -1 && 
+              <div className='play-button' onClick={() => playDemo(1)}>
+                <IoPlayOutline color='white' size='25px'/>
+                <p style={{color: 'white', fontSize: 30}}>Play Demo</p>
+              </div>}
+              {project2Index > -1 &&
+              <div className='video-text'>
+                <p>{projectSteps[1][project2Index]}...</p>
+              </div>}
+          </div>
+        </div>
         <div className='project project1'>
             <div className='media-container project1'>
               <div className='video-content'>
@@ -92,7 +121,7 @@ function Project() {
                 </div>}
             </div>
         </div>
-        <div className='project project2'>
+        {/* <div className='project project2'>
             <div className='media-container project2'>
               <div className='video-content'>
               <video id='project2' src={ScanAIApp} width='100%' height='100%'></video>
@@ -118,7 +147,7 @@ function Project() {
                   <p>{projectSteps[1][project2Index]}...</p>
                 </div>}
             </div>
-        </div>
+        </div> 
         <div className='project project1'>
             <div className='media-container project1'>
               <div className='video-content'>
@@ -172,7 +201,7 @@ function Project() {
                   <p>{projectSteps[3][project4Index]}...</p>
                 </div>}
             </div>
-        </div>
+        </div> */}
     </div>
   );
 }

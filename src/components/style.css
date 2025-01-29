@@ -1,7 +1,7 @@
 .container {
-    background-color: rgb(29, 40, 56);
+    /* background-color: rgba(62, 88, 75, 1); */
     width: 100vw;
-    height: 100vh;  /* Change to fit minimum content */
+    height: 80vh;  /* Change to fit minimum content */
     border-radius: 3px;
 }
 .button-container {
@@ -14,7 +14,7 @@
 }
 .scroll-button {
     position: absolute;
-    bottom: 10px;
+    bottom: 20vh;
     z-index: 1;
     justify-content: center;
     width: 100vw;
@@ -31,36 +31,51 @@
 .fixed-background {
     position: fixed;
     top: 0;
-    background-image: url('../../public/japanese-castle-cherry-blossom-mountain.jpg');
-    background-size: cover;
-    background-repeat: no-repeat;
-    height: 100vh; 
-    width: 100%;
+    background: rgb(31, 82, 56);
+    /* background-image: url('../../public/japanese-castle-cherry-blossom-mountain.jpg'); */
+    /* background-size: cover; */
+    /* background-repeat: no-repeat; */
+    height: 80vh; 
+    width: 100vw;
+    display: flex;
 }
 .header {
     color: white;
     font-size: 80px;
 }
+.header-2 {
+    color: white;
+    font-size: 40px;
+}
 .header-container {
+    /* position: absolute; */
+    /* width: 50%; */
+    margin-top: 10%;
+    flex: 50%;
+}
+.image-container {
+    display: flex;
+    align-items: stretch;
+    justify-content: center;
+}
+.header-image {
     position: absolute;
-    width: 50%;
-    margin-top: 100px;
+    left: 23%;
+    border-radius: 50%;
+    height: 200px;
+    object-fit: cover;
 }
 .about-container {
-    position: absolute;
-    width: 40%;
-    margin-top: 100px;
-    left: 45%;
-    background-color: rgba(0, 0, 0, 0.9);
-    padding: 20px;
+    padding-inline: 20%;
 }
 .about-container p {
     color: white;
     font-family:'Courier New', Courier, monospace;
     font-size: 16px;
-    text-align: left;
+    text-align: center;
     line-height: 1.5;
 }
+
 .header.left {
     animation: slide-right 3s;
 }
@@ -76,18 +91,35 @@
     to { margin-left: 0%; }
 }
 .scrollabe-container {
-    min-height: 300px;
-    width: 100vw;
-    position: relative;
-    background-image: url('../../public/silhouette-cloud.png');
-    background-size: 100vw;
-    background-repeat: no-repeat;
-    padding-top: 100vh;
+    /* min-height: 300px; */
+    /* width: 100vw; */
+    /* position: relative; */
+    /* background: rgb(35, 35, 35); */
+    /* background-image: url('../../public/silhouette-cloud.png'); */
+    /* background-size: 100vw; */
+    /* background-repeat: no-repeat; */
+    padding-top: 80vh;
     scroll-behavior: smooth;
 }
-
+.experience-container {
+    /* margin-top: 10%;
+    background: rgb(35, 35, 35);
+    width: 100vw; */
+    /* flex: 50%; */
+    background: rgb(35, 35, 35);
+    /* repeating-linear-gradient(black 100px, rgb(6, 8, 11), black ); */
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    z-index: 10;
+    padding-top: 50px;
+}
 .portfolio-container{
-    background: repeating-linear-gradient(black 100px, rgb(6, 8, 11), black );
+    background: rgb(35, 35, 35);
+    /* repeating-linear-gradient(black 100px, rgb(6, 8, 11), black ); */
     width: 100vw;
     display: flex;
     flex-direction: column;
